@@ -1,0 +1,40 @@
+:root {
+    /***** font-family *****/
+    --font-family-primary: "Jost", serif;
+    /****** color  ******/
+    --color-white: white;
+    /***** font-size *****/
+    --text-small: 16px;
+    --text-sm: 20px;
+    --text-md: 24px;
+    --text-lg: 36px;
+    --text-2xl: 96px;
+}
+
+.font-family-primary {
+    font-family: var(--font-family-primary);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.text-small {
+    font-size: var(--text-small);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-2xl {
+    font-size: var(--text-2xl);
+}
