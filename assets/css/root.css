@@ -1,40 +1,154 @@
 :root {
-    /***** font-family *****/
+    /****** font-family ******/
     --font-family-primary: "Jost", serif;
-    /****** color  ******/
-    --color-white: white;
-    /***** font-size *****/
+    /****** font-size ******/
     --text-small: 16px;
     --text-sm: 20px;
     --text-md: 24px;
     --text-lg: 36px;
-    --text-2xl: 96px;
+    --text-xl: 96px;
+    /****** font-weight ******/
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+    --fw-900: 900;
+    /****** color ******/
+    --color-white: #FFFFFF;
+    --color-sky-blue: #39C6FD;
+    --color-dark-black: #00000080;
+    --color-blue: #070D37;
+    --color-níu-zǎi: #056BF1;
+    /****** line-height ******/
+    --lh-small: 18.24px;
+    --lh-19: 19.28px;
+    --lh-22: 22.8px;
+    --lh-27: 27.36px;
+    --lh-41: 41.04px;
+    --lh-109: 109.44px;
 }
 
+/****** font-family ******/
 .font-family-primary {
-    font-family: var(--font-family-primary);
+    font-family: "Jost", serif;
 }
 
-.color-white {
-    color: var(--color-white);
+/****** font-weight ******/
+.fw-400 {
+    font-weight: var(--fw-400);
 }
 
-.text-small {
-    font-size: var(--text-small);
+.fw-600 {
+    font-weight: var(--fw-600);
 }
 
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+.fw-900 {
+    font-weight: var(--fw-900);
+}
+
+/****** font-size ******/
 .text-sm {
     font-size: var(--text-sm);
-}
-
-.text-md {
-    font-size: var(--text-md);
 }
 
 .text-lg {
     font-size: var(--text-lg);
 }
 
-.text-2xl {
-    font-size: var(--text-2xl);
+.text-md {
+    font-size: var(--text-md);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.text-small {
+    font-size: var(--text-small);
+}
+
+/****** line-height ******/
+.lh-small {
+    line-height: var(--lh-small);
+}
+
+.lh-19 {
+    line-height: var(--lh-19);
+}
+
+.lh-22 {
+    line-height: var(--lh-22);
+}
+
+.lh-27 {
+    line-height: var(--lh-27);
+}
+
+.lh-41 {
+    line-height: var(--lh-41);
+}
+
+.lh-109 {
+    line-height: var(--lh-109);
+}
+
+/****** color ******/
+.color-white {
+    color: var(--color-white);
+}
+
+.bg-sky-blue {
+    background-color: var(--color-sky-blue);
+}
+
+.color-dark-blue {
+    color: var(--color-dark-blue);
+}
+
+.bg-dark-black {
+    background-color: var(--color-dark-black);
+}
+
+.color-sky-blue {
+    color: var(--color-sky-blue);
+}
+
+.color-blue {
+    color: var(--color-blue);
+}
+
+.color-níu-zǎi {
+    color: var(--color-níu-zǎi);
+}
+
+.bg-blue {
+    background-color: var(--color-blue);
+}
+
+/****** media-query ******/
+@media (max-width:1199.98px) {
+    :root {
+        --text-xl: 68px;
+        --text-lg: 38px;
+        --lh-109: 80px;
+    }
+}
+
+@media (max-width:991.98px) {
+    :root {
+        --text-xl: 48px;
+        --text-lg: 38px;
+        --lh-109: 50px;
+    }
+}
+
+@media (max-width:424.98px) {
+    :root {
+        --text-xl: 50px;
+        --text-lg: 28px;
+        --lh-109: 60px;
+    }
 }
