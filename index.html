@@ -6,57 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Nigalya</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/image/png/header-img-1.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
     <header class="bg-img">
         <nav class="d-flex align-item nav-bar bg-dark-black">
-            <img class="d-lg-none" src="/assets/image/svg/header-logo.svg" alt="header-logo">
+            <div class="container">
+                <div class="d-flex align-item justify-content-space">
+                    <img class="d-lg-none" src="/assets/image/svg/header-logo.svg" alt="header-logo">
+                    <label onclick="navbarbtn()" class="z-5 d-lg-none">
+                        <span class="menu-lines " id="rotats"></span>
+                        <span class="menu-lines " id="transparent"></span>
+                        <span class="menu-lines " id="rotats2"></span>
 
-            <label onclick="navbarbtn()" class="z-5 d-lg-none">
-                <span class="menu-lines " id="rotats"></span>
-                <span class="menu-lines " id="transparent"></span>
-                <span class="menu-lines " id="rotats2"></span>
-            </label>
-            <ul id="nav-name" class="list-unstyled nav-link d-flex">
-                <li class="pt-27 pl-23">
-                    <img class="logo" src="/assets/image/svg/header-logo.svg" alt="header-logo">
-
-                </li>
-                <li>
-                    <ul class="d-flex list-unstyled gap-39 pt-31 align-item">
-                        <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link" href="">HOME</a>
-                        </li>
-                        <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link" href="">ABOUT</a>
-                        </li>
-                        <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link"
-                                href="">ROADMAP</a></li>
-                        <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link" href="">TEAM</a>
-                        </li>
-                        <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link" href="">FAQ</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <ul class="list-unstyled d-flex gap-20 pt-26">
-                        <li><img src="/assets/image/svg/twitter-svg.svg" alt="twitter-svg"></li>
-                        <li><img src="/assets/image/svg/telegram-svg.svg" alt="telegram-svg"></li>
-                        <li><img src="/assets/image/svg/instagram-svg.svg" alt="instagram-svg"></li>
-                        <li><img src="/assets/image/svg/discord-svg.svg" alt="discord-svg"></li>
-                    </ul>
-                </li>
-            </ul>
+                    </label>
+                </div>
+                <ul id="nav-name" class="list-unstyled nav-link d-flex">
+                    <li class="pt-27 pl-23">
+                        <a href="#"><img class="logo" src="/assets/image/svg/header-logo.svg" alt="header-logo">
+                        </a>
+                    </li>
+                    <li>
+                        <ul class="d-flex list-unstyled gap-39 pt-31 align-item">
+                            <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link"
+                                    href="#">HOME</a>
+                            </li>
+                            <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link"
+                                    href="#">ABOUT</a>
+                            </li>
+                            <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link"
+                                    href="#">ROADMAP</a></li>
+                            <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link"
+                                    href="#">TEAM</a>
+                            </li>
+                            <li><a class="font-family-primary color-white text-sm fw-400 lh-19 navbar-link"
+                                    href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="list-unstyled d-flex gap-20 pt-26">
+                            <li><a href="https://x.com/?lang=en"><img class="icon"
+                                        src="/assets/image/svg/twitter-svg.svg" alt="twitter-svg"></a></li>
+                            <li><a href="http://web.telegram.org/k/"><img class="icon"
+                                        src="/assets/image/svg/telegram-svg.svg" alt="telegram-svg"></a></li>
+                            <li><a href="https://www.instagram.com/accounts/login/?hl=en"><img class="icon"
+                                        src="/assets/image/svg/instagram-svg.svg" alt="instagram-svg"></a></li>
+                            <li><a href="https://discord.com/channels/@me"><img class="icon"
+                                        src="/assets/image/svg/discord-svg.svg" alt="discord-svg"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="container">
-            <div class="row">
+            <div class="row col-reverse">
                 <div class=" col-12 col-lg-6">
                     <img class="header-img-1" src="/assets/image/png/header-img-1.png" alt="header-img-1">
                 </div>
-                <div class=" col-12 col-lg-6 half-sec">
+                <div class=" col-12 col-lg-6 mt-133">
                     <p class="font-family-primary fw-600 text-md lh-27 color-white pt-133">Welcome to Nigalya</p>
                     <h1 class="font-family-primary fw-900 text-xl lh-109 color-white ">Land of eternal NFT challengers
                     </h1>
-                    <p class="font-family-primary color-white text-sm fw-600 lh-22 pt-12">The first-choose-to earn on the
+                    <p class="font-family-primary color-white text-sm fw-600 lh-22 pt-12">The first-choose-to earn on
+                        the
                         blockchain </p>
                     <div class="parent">
                         <button class="font-family-primary btn-1 color-white fw-600 text-sm lh-22 ">JOIN NOW</button>
@@ -78,6 +95,40 @@
             </div>
         </div>
     </section>
+    <section class="d-flex align-items-center justify-content-center min-vh-100 bg-black-wash">
+        <div class="container overflow-x-hidden max-w-1140">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="font-family-primary fw-900 text-xl lh-109 text-white text-center">A Quick Hightlight</h2>
+                    <p class="font-family-primary fw-semibold text-small lh-18 text-center text-white mt-36">ON YOUR
+                        TACTICAL GEAR</p>
+                </div>
+            </div>
+            <div class="d_grid parent-grid mt-4">
+                <div class="grid-item grid-item-1">
+                    <img class="w-100" src="./assets/image/svg/grid-img-1.svg" alt="grid-img-1">
+                </div>
+                <div class="grid-item grid-item-2">
+                    <img class="w-100 max-w-163" src="./assets/image/svg/grid-img-2.svg" alt="grid-img-2">
+                </div>
+                <div class="grid-item grid-item-3">
+                    <img class="w-100 max-w-198" src="./assets/image/svg/grid-img-3.svg" alt="grid-img-3">
+                </div>
+                <div class="grid-item grid-item-4">
+                    <img class="w-100 max-w-206" src="./assets/image/svg/grid-img-4.svg" alt="grid-img-4">
+                </div>
+                <div class="grid-item grid-item-5">
+                    <img class="w-100 max-w-425" src="./assets/image/svg/grid-img-5.svg" alt="grid-img-5">
+                </div>
+                <div class="grid-item grid-item-6">
+                    <img class="w-100 max-w-607" src="./assets/image/svg/grid-img-6.svg" alt="grid-img-6">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
 </body>
 
