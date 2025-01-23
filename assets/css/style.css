@@ -260,8 +260,6 @@
     padding-right: 12px;
 }
 
-
-
 /****** display-grid ******/
 
 .d_grid {
@@ -269,11 +267,6 @@
     grid-column: auto;
     grid-row: auto;
     grid-gap: 20px;
-}
-
-.d_grid>*:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
 }
 
 .parent-grid .grid-item-1 {
