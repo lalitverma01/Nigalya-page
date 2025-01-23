@@ -23,7 +23,9 @@
     --lh-18: 18.24px;
     --lh-19: 19.28px;
     --lh-22: 22.8px;
+    --lh-24: 24px;
     --lh-27: 27.36px;
+    --lh-35: 35.4px;
     --lh-41: 41.04px;
     --lh-109: 109.44px;
 }
@@ -84,8 +86,16 @@
     line-height: var(--lh-22);
 }
 
+.lh-24 {
+    line-height: var(--lh-24);
+}
+
 .lh-27 {
     line-height: var(--lh-27);
+}
+
+.lh-35 {
+    line-height: var(--lh-35);
 }
 
 .lh-41 {

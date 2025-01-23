@@ -43,11 +43,28 @@
     padding-top: 133px;
 }
 
+.pt-77 {
+    padding-top: 77px;
+}
+
 .mt-36 {
     margin-top: 36px;
 }
+
+.mt-54 {
+    margin-top: 54px;
+}
+
+.mt-63 {
+    margin-top: 63px;
+}
+
 .mt-78 {
     margin-top: 78px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }
 
 /****** width ******/
@@ -73,6 +90,10 @@
 
 .max-w-607 {
     max-width: 607px;
+}
+
+.max-w-946 {
+    max-width: 946px;
 }
 
 .max-w-1140 {
@@ -133,6 +154,12 @@
     height: 700px;
     display: flex;
     position: relative;
+}
+
+.bg-img-3 {
+    background-image: url(../image/png/accordion-bg-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -238,12 +265,9 @@
 /****** display-grid ******/
 
 .d_grid {
-    /* display: -ms-grid; */
     display: grid;
-    /* -ms-grid-columns: auto; */
-    /* grid-template-columns: auto; */
-    -ms-grid-rows: auto;
-    grid-template-rows: auto;
+    grid-column: auto;
+    grid-row: auto;
     grid-gap: 20px;
 }
 
@@ -285,7 +309,6 @@
 .parent-grid .grid-item img {
     object-fit: cover;
     -o-object-fit: cover;
-
     object-position: center;
     -o-object-position: center;
     -webkit-transition: all 500ms linear;
@@ -306,6 +329,60 @@
 .parent-grid .grid-item:hover img {
     transform: scale(1.1);
 }
+
+/****** accordion ******/
+.section-3 .accordion {
+    max-width: 635px !important;
+    width: 100%;
+}
+
+.section-3 .accordion-button {
+    box-shadow: none !important;
+    margin: 24px 0px 17px 0px !important;
+    padding: 0 !important;
+}
+
+.section-3 .accordion-button::not(.collapsed) {
+    padding-bottom: 25px;
+}
+
+.section-3 .accordion-item {
+    z-index: 1;
+    border: none;
+}
+
+.section-3 .accordion-body {
+    padding: 17px 0px 20px 0px !important;
+}
+
+.section-3 .accordion-item {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent !important;
+}
+
+.section-3 .accordion-button {
+    background-color: transparent !important;
+}
+
+.section-3 .accordion-button:not(.collapsed)::after {
+    background-image: url("../image/svg/sub-img.svg");
+    background-size: contain;
+    background-position: center;
+    transform: rotate(0);
+}
+
+.section-3 .accordion-button::after {
+    background-image: url("../image/svg/add-img.svg");
+    background-size: contain;
+    background-position: center;
+}
+
+.line {
+    border: 1px solid white;
+}
+
+
 
 @media (min-width:991.98px) {
     .col-lg-6 {
@@ -372,7 +449,7 @@
     .nav-link {
         display: flex;
         flex-direction: column;
-        background: black;
+        background: black !important;
         width: 100%;
         min-height: 100vh;
         position: fixed;
@@ -421,7 +498,7 @@
     }
 
     .pt-133 {
-        padding-top: 50px;
+        padding-top: 150px;
     }
 
     .parent {
