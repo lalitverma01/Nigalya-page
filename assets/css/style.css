@@ -419,12 +419,6 @@
     }
 }
 
-/* @media (min-width:1440.99px) {
-    .header-img-1 {
-        position: unset;
-    }
-} */
-
 @media (max-width:1439.98px) {
     .header-img-1 {
         width: 100%;
