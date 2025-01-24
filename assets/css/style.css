@@ -266,48 +266,48 @@
 }
 
 /****** accordion ******/
-.section-3 .accordion {
+.faq .accordion {
     max-width: 635px !important;
     width: 100%;
 }
 
-.section-3 .accordion-button {
+.faq .accordion-button {
     box-shadow: none !important;
     margin: 24px 0px 17px 0px !important;
     padding: 0 !important;
 }
 
-.section-3 .accordion-button::not(.collapsed) {
+.faq .accordion-button::not(.collapsed) {
     padding-bottom: 25px;
 }
 
-.section-3 .accordion-item {
+.faq .accordion-item {
     z-index: 1;
     border: none;
 }
 
-.section-3 .accordion-body {
+.faq .accordion-body {
     padding: 17px 0px 20px 0px !important;
 }
 
-.section-3 .accordion-item {
+.faq .accordion-item {
     position: relative;
     overflow: hidden;
     background-color: transparent !important;
 }
 
-.section-3 .accordion-button {
+.faq .accordion-button {
     background-color: transparent !important;
 }
 
-.section-3 .accordion-button:not(.collapsed)::after {
+.faq .accordion-button:not(.collapsed)::after {
     background-image: url("../image/svg/sub-img.svg");
     background-size: contain;
     background-position: center;
     transform: rotate(0);
 }
 
-.section-3 .accordion-button::after {
+.faq .accordion-button::after {
     background-image: url("../image/svg/add-img.svg");
     background-size: contain;
     background-position: center;
