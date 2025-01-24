@@ -8,9 +8,6 @@
     --text-lg: 36px;
     --text-xl: 94px;
     /****** font-weight ******/
-    --fw-400: 400;
-    --fw-600: 600;
-    --fw-700: 700;
     --fw-900: 900;
     /****** color ******/
     --color-white: #FFFFFF;
@@ -36,17 +33,6 @@
 }
 
 /****** font-weight ******/
-.fw-400 {
-    font-weight: var(--fw-400);
-}
-
-.fw-600 {
-    font-weight: var(--fw-600);
-}
-
-.fw-700 {
-    font-weight: var(--fw-700);
-}
 
 .fw-900 {
     font-weight: var(--fw-900);

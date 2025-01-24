@@ -67,7 +67,7 @@
 /****** width ******/
 
 .max-w-1140 {
-    max-width: 1140px;
+    max-width: 1140px !important;
 }
 
 .parent {
@@ -91,7 +91,7 @@
 .header-img-1 {
     bottom: -10%;
     position: absolute;
-    left: 0%;
+    left: -10%;
 }
 
 .navbar-link {
@@ -124,7 +124,7 @@
     background-image: url(../image/png/footer-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position:left;
+    background-position: left;
 }
 
 .layer {
@@ -336,6 +336,11 @@
     height: 54px;
     border-radius: 50%;
     border: 1px solid var(--color-white);
+    transition: all 500ms linear;
+}
+
+.circle:hover {
+    transform: scale(1.2);
 }
 
 @media (min-width:1199.98px) {
@@ -397,10 +402,6 @@
         z-index: 3;
     }
 
-    .bg-transparent {
-        background-color: transparent;
-    }
-
     .show-nvabar {
         right: 0;
     }
@@ -435,6 +436,10 @@
 
     .pt-133 {
         padding-top: 20px;
+    }
+
+    .bg-img {
+        height: 100vh;
     }
 }
 
