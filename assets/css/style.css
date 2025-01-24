@@ -70,12 +70,6 @@
     max-width: 1140px;
 }
 
-/* .bg-dark-black {
-    width: 100%;
-    left: 0%;
-    position: absolute;
-} */
-
 .parent {
     display: flex;
     gap: 29px;
@@ -130,7 +124,7 @@
     background-image: url(../image/png/footer-bg-img.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left !important;
+    background-position:left;
 }
 
 .layer {
@@ -365,10 +359,6 @@
     .gap-20 {
         gap: 20px;
     }
-
-    /* .d-lg-none {
-        display: none;
-    } */
 }
 
 @media (max-width:1439.98px) {
@@ -445,10 +435,6 @@
 
     .pt-133 {
         padding-top: 20px;
-    }
-
-    .parent {
-        /* margin-bottom: 50px; */
     }
 }
 
